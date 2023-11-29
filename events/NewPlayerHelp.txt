@@ -1,0 +1,16 @@
+add_namespace = newplayer.help_yes
+
+country_event = {
+	id = newplayer.1
+	title = "SqdMod Help"
+	desc - newplayer.1.d
+	
+	is_triggered_only = yes
+	trigger = { date = 1936.1.1 }
+	mean_time_to_happen = { days = 0 }
+	
+	option = {
+		name = "Thanks, I will be sure to make 40W divisions."
+		ai_change - { factor = 100 }
+	}
+}
