@@ -1,0 +1,35 @@
+
+state={
+	id=638
+	name="STATE_638"
+
+	history={
+		1936.1.1.13 = {
+			owner = WST
+			add_core_of = WST
+
+		}
+		owner = USA
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 3
+			12140 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			12140 1 
+		}
+
+	}
+
+	provinces={
+		12140 13023 13369 
+	}
+	manpower=75153
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

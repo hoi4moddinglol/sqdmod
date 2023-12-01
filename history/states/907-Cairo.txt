@@ -1,0 +1,52 @@
+
+state={
+	id=907
+	name="STATE_907"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+
+		}
+		victory_points = {
+			7011 25 
+		}
+		victory_points = {
+			13323 5 
+		}
+		victory_points = {
+			13321 5 
+		}
+		victory_points = {
+			13315 3 
+		}
+		victory_points = {
+			12816 1 
+		}
+		victory_points = {
+			12004 5 
+		}
+		victory_points = {
+			13327 5 
+		}
+		victory_points = {
+			13318 5 
+		}
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		4143 7011 12004 13315 13318 13320 13321 13323 13327 
+	}
+	manpower=6454865
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
