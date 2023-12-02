@@ -2,6 +2,7 @@
 
 
 oob = "BRA_1936"
+set_research_slots = 3
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BRA_1936_air_bba"

@@ -1,6 +1,7 @@
 state={
 	id=774
 	name="STATE_774"
+	state_category = megalopolis
 
 	history={
 		owner = FRA
@@ -9,7 +10,7 @@ state={
 			2081 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3 # was 1
 
 		}
 

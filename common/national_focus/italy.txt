@@ -2662,10 +2662,10 @@ focus_tree = {
 			add_to_variable = { ITA_iri_production_speed_arms_factory_factor = 0.025 }
 			custom_effect_tooltip = ITA_steel_industry_in_terni_ricostruzione_industriale_tt
 			2 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				add_resource = {
@@ -2696,10 +2696,10 @@ focus_tree = {
 			custom_effect_tooltip = ITA_power_plants_in_terni_ricostruzione_industriale_tt
 
 			2 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2755,37 +2755,37 @@ focus_tree = {
 
 		completion_reward = {
 			158 = { #PIEDMONT (Torino, Genoa)
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 
 			159 = { #LOMBARDY (Milano, Brescia)
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 
 			161 = { #EMILIA ROMAGNA (Bologna)
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
 
 			160 = { #VENETO (Venice )
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -2822,15 +2822,15 @@ focus_tree = {
 							instant_build = yes						
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = arms_factory
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -2857,10 +2857,10 @@ focus_tree = {
 							instant_build = yes						
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -3020,10 +3020,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -3084,10 +3084,10 @@ focus_tree = {
 			custom_effect_tooltip = ITA_investments_in_edison_ricostruzione_industriale_tt
 
 			159 = { #LOMBARDY (Milano)
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -3130,10 +3130,10 @@ focus_tree = {
 
 		completion_reward = {
 			159 = { #LOMBARDY (Milano)
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -3157,10 +3157,10 @@ focus_tree = {
 
 		completion_reward = {
 			159 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -3247,10 +3247,10 @@ focus_tree = {
 					}
 				}
 				159 = { #LOMBARDY (Milano)
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -3266,10 +3266,10 @@ focus_tree = {
 						}
 					}
 					prioritize = { 158 160 852 736 39 } #PIEMONTE as main fallback
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -5202,10 +5202,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -5218,10 +5218,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -5247,10 +5247,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -5262,10 +5262,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 3
 						instant_build = yes
 					}
 				}				
@@ -5486,10 +5486,10 @@ focus_tree = {
 					}
 				}
 				162 = { #TUSCANY (La Spezia)
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -5505,10 +5505,10 @@ focus_tree = {
 						}
 					}
 					prioritize = { 157 161 160 } #ABRUZZO as main fallback
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 1
+						level = 4
 						instant_build = yes
 					}
 				}

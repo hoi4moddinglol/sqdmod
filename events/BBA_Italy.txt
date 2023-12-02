@@ -5478,177 +5478,176 @@ country_event = {
 
 
 # Event to complete first focus in RSI branch without the RDS getting the popup
-country_event = { #TODO_Manu: Check if this solves the shit
-	id = BBA_italy_civil_war.0
-	hidden = yes
-
-	is_triggered_only = yes
-
-	immediate = {
-		if = {
-			limit = {
-				tag = RSI
-			}
-			complete_national_focus = ITA_the_italian_social_republic
-		}
-		else_if = {
-			limit = {
-				tag = RDS
-			}
-			complete_national_focus = ITA_the_italian_liberation_war
-		}
-	}
-}
-
+#country_event = { #TODO_Manu: Check if this solves the shit
+#	id = BBA_italy_civil_war.0
+#	hidden = yes
+#
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		if = {
+#			limit = {
+#				tag = RSI
+#			}
+#			complete_national_focus = ITA_the_italian_social_republic
+#		}
+#		else_if = {
+#			limit = {
+#				tag = RDS
+#			}
+#			complete_national_focus = ITA_the_italian_liberation_war
+#		}
+#	}
+#}
 
 # CIVIL WAR!!! - Event for Italy
-country_event = {
-	id = BBA_italy_civil_war.1
-	title = BBA_italy_civil_war.1.t
-	desc = BBA_italy_civil_war.1.desc
-	picture = GFX_report_event_ITA_italian_civil_war
-	
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			set_country_flag = ITA_fascist_side_for_character_split_flag # Used for character split
-			ITA_cw_set_sides_and_overlords = yes #MANAGES SIDES (Cosmetics, flags, overlords, etc.)
-
-			ITA_cw_manage_states_split_effect = yes #SETS THE STATE SPLIT
-		}
-	}
-
-	# Fascist
-	option = { 
-		name = BBA_italy_civil_war.1.a
-
-		ai_chance = {
-			base = 1
-		}
-
-		effect_tooltip = {
-			start_civil_war = {
-				ideology = neutrality #SPLITTING TAG
-				size = 0.35
-			}
-			custom_effect_tooltip = BBA_italy_civil_war_fascist_tt
-		}
-
-		hidden_effect = {
-			ITA_set_special_characters_as_fascist_effect = yes
-			ITA_start_civil_war_effect = yes
-			complete_national_focus = ITA_the_italian_social_republic
-			RDS = { country_event = { id = BBA_italy_civil_war.0 hours = 1 } }
-			news_event = { id = bba_news.110 hours = 2 }
-		}
-		#ITA_log_the_shit = yes
-	}
-
-}
+#country_event = {
+#	id = BBA_italy_civil_war.1
+#	title = BBA_italy_civil_war.1.t
+#	desc = BBA_italy_civil_war.1.desc
+#	picture = GFX_report_event_ITA_italian_civil_war
+#	
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		hidden_effect = {
+#			set_country_flag = ITA_fascist_side_for_character_split_flag # Used for character split
+#			ITA_cw_set_sides_and_overlords = yes #MANAGES SIDES (Cosmetics, flags, overlords, etc.)
+#
+#			ITA_cw_manage_states_split_effect = yes #SETS THE STATE SPLIT
+#		}
+#	}
+#
+#	# Fascist
+#	option = { 
+#		name = BBA_italy_civil_war.1.a
+#
+#		ai_chance = {
+#			base = 1
+#		}
+#
+#		effect_tooltip = {
+#			start_civil_war = {
+#				ideology = neutrality #SPLITTING TAG
+#				size = 0.35
+#			}
+#			custom_effect_tooltip = BBA_italy_civil_war_fascist_tt
+#		}
+#
+#		hidden_effect = {
+#			ITA_set_special_characters_as_fascist_effect = yes
+#			ITA_start_civil_war_effect = yes
+#			complete_national_focus = ITA_the_italian_social_republic
+#			RDS = { country_event = { id = BBA_italy_civil_war.0 hours = 1 } }
+#			news_event = { id = bba_news.110 hours = 2 }
+#		}
+#		#ITA_log_the_shit = yes
+#	}
+#
+#}
 
 # Fronte Militare Clandestino (state modifier) - Event for RSI
-country_event = {
-	id = BBA_italy_civil_war.2
-	title = BBA_italy_civil_war.2.t
-	desc = BBA_italy_civil_war.2.desc
-	picture = GFX_report_event_ITA_partisans
-	
-	is_triggered_only = yes
-
-	# Ok
-	option = { 
-		name = BBA_italy_civil_war.2.a
-
-		effect_tooltip = {
-			every_core_state = {
-				custom_effect_tooltip = ITA_fronte_militare_clandestino_modifier_tt
-			}
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.2
+#	title = BBA_italy_civil_war.2.t
+#	desc = BBA_italy_civil_war.2.desc
+#	picture = GFX_report_event_ITA_partisans
+#	
+#	is_triggered_only = yes
+#
+#	# Ok
+#	option = { 
+#		name = BBA_italy_civil_war.2.a
+#
+#		effect_tooltip = {
+#			every_core_state = {
+#				custom_effect_tooltip = ITA_fronte_militare_clandestino_modifier_tt
+#			}
+#		}
+#	}
+#}
 
 # Gappisti (state modifier) - Event for RSI
-country_event = {
-	id = BBA_italy_civil_war.3
-	title = BBA_italy_civil_war.3.t
-	desc = BBA_italy_civil_war.3.desc
-	picture = GFX_report_event_ITA_partisans
-	
-	is_triggered_only = yes
-
-	# Ok
-	option = { 
-		name = BBA_italy_civil_war.3.a
-
-		add_stability = -0.05
-		custom_effect_tooltip = ITA_gappisti_state_modifier_rsi_tt
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.3
+#	title = BBA_italy_civil_war.3.t
+#	desc = BBA_italy_civil_war.3.desc
+#	picture = GFX_report_event_ITA_partisans
+#	
+#	is_triggered_only = yes
+#
+#	# Ok
+#	option = { 
+#		name = BBA_italy_civil_war.3.a
+#
+#		add_stability = -0.05
+#		custom_effect_tooltip = ITA_gappisti_state_modifier_rsi_tt
+#	}
+#}
 
 # Anti-Partisan Measures (state modifier) - Event for RDS
-country_event = {
-	id = BBA_italy_civil_war.4
-	title = BBA_italy_civil_war.4.t
-	desc = BBA_italy_civil_war.4.desc
-	picture = GFX_report_event_ger_civil_war
-	
-	is_triggered_only = yes
-
-	# Ok
-	option = { 
-		name = BBA_italy_civil_war.4.a
-
-		add_stability = -0.05
-		custom_effect_tooltip = ITA_gappisti_state_modifier_rds_tt
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.4
+#	title = BBA_italy_civil_war.4.t
+#	desc = BBA_italy_civil_war.4.desc
+#	picture = GFX_report_event_ger_civil_war
+#	
+#	is_triggered_only = yes
+#
+#	# Ok
+#	option = { 
+#		name = BBA_italy_civil_war.4.a
+#
+#		add_stability = -0.05
+#		custom_effect_tooltip = ITA_gappisti_state_modifier_rds_tt
+#	}
+#}
 
 # GIVE US INDEPENDENCE- Event for Italian overlord (RSI and RDS)
-country_event = {
-	id = BBA_italy_civil_war.5
-	title = BBA_italy_civil_war.5.t
-	desc = BBA_italy_civil_war.5.desc
-	picture = GFX_report_event_generic_sign_treaty2
-	
-	is_triggered_only = yes
-
-	# Ok
-	option = { 
-		name = BBA_italy_civil_war.5.a
-
-		ai_chance = {
-			base = 1
-		}
-
-		effect_tooltip = {
-			end_puppet = FROM
-			FROM = {
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ITA_granted_us_independence
-				}
-			}
-		}
-		hidden_effect = {
-			FROM = { country_event = { id = BBA_italy_civil_war.6 hours = 1 } }
-		}
-	}
-
-	# Nej tack
-	option = { 
-		name = BBA_italy_civil_war.5.b
-
-		ai_chance = {
-			base = 0
-		}
-
-		custom_effect_tooltip = germany.126.warning #Can lead to war
-		hidden_effect = {
-			FROM = { country_event = { id = BBA_italy_civil_war.7 hours = 1 } }
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.5
+#	title = BBA_italy_civil_war.5.t
+#	desc = BBA_italy_civil_war.5.desc
+#	picture = GFX_report_event_generic_sign_treaty2
+#	
+#	is_triggered_only = yes
+#
+#	# Ok
+#	option = { 
+#		name = BBA_italy_civil_war.5.a
+#
+#		ai_chance = {
+#			base = 1
+#		}
+#
+#		effect_tooltip = {
+#			end_puppet = FROM
+#			FROM = {
+#				add_opinion_modifier = {
+#					target = ROOT
+#					modifier = ITA_granted_us_independence
+#				}
+#			}
+#		}
+#		hidden_effect = {
+#			FROM = { country_event = { id = BBA_italy_civil_war.6 hours = 1 } }
+#		}
+#	}
+#
+#	# Nej tack
+#	option = { 
+#		name = BBA_italy_civil_war.5.b
+#
+#		ai_chance = {
+#			base = 0
+#		}
+#
+#		custom_effect_tooltip = germany.126.warning #Can lead to war
+#		hidden_effect = {
+#			FROM = { country_event = { id = BBA_italy_civil_war.7 hours = 1 } }
+#		}
+#	}
+#}
 
 # We are independent now - Event for RSI or RDS
 country_event = {
@@ -5726,98 +5725,98 @@ country_event = {
 }
 
 # ITALIAN CIVIL WAR!!! - Event for People occupying Italian cores
-country_event = {
-	id = BBA_italy_civil_war.100
-	title = BBA_italy_civil_war.100.t
-	desc = BBA_italy_civil_war.100.desc
-	picture = GFX_report_event_ITA_italian_civil_war
-	
-	is_triggered_only = yes
-
-	fire_only_once = yes
-
-	# Give them states
-	option = { 
-		name = BBA_italy_civil_war.100.a
-
-		ai_chance = {
-			base = 10
-		}
-
-		effect_tooltip = {
-			custom_effect_tooltip = ITA_we_will_transfer_the_following_states_tt
-			every_controlled_state = {
-				limit = {
-					OR = {
-						has_state_flag = ITA_cw_state_split
-						is_owned_by = RSI
-					}
-				}
-			}
-		}
-		hidden_effect = {
-			RDS = { country_event = { id = BBA_italy_civil_war.101 hours = 1 } }
-		}
-	}
-
-	# My stuff go away
-	option = { 
-		name = BBA_italy_civil_war.100.b
-
-		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 0
-				FROM = { is_ai = no }
-			}
-		}
-
-		custom_effect_tooltip = ITA_we_keep_our_occupied_states_tt
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.100
+#	title = BBA_italy_civil_war.100.t
+#	desc = BBA_italy_civil_war.100.desc
+#	picture = GFX_report_event_ITA_italian_civil_war
+#	
+#	is_triggered_only = yes
+#
+#	fire_only_once = yes
+#
+#	# Give them states
+#	option = { 
+#		name = BBA_italy_civil_war.100.a
+#
+#		ai_chance = {
+#			base = 10
+#		}
+#
+#		effect_tooltip = {
+#			custom_effect_tooltip = ITA_we_will_transfer_the_following_states_tt
+#			every_controlled_state = {
+#				limit = {
+#					OR = {
+#						has_state_flag = ITA_cw_state_split
+#						is_owned_by = RSI
+#					}
+#				}
+#			}
+#		}
+#		hidden_effect = {
+#			RDS = { country_event = { id = BBA_italy_civil_war.101 hours = 1 } }
+#		}
+#	}
+#
+#	# My stuff go away
+#	option = { 
+#		name = BBA_italy_civil_war.100.b
+#
+#		ai_chance = {
+#			base = 1
+#			modifier = {
+#				factor = 0
+#				FROM = { is_ai = no }
+#			}
+#		}
+#
+#		custom_effect_tooltip = ITA_we_keep_our_occupied_states_tt
+#	}
+#}
 
 # Country gives occupied states to RDS - Event for RDS
-country_event = {
-	id = BBA_italy_civil_war.101
-	title = BBA_italy_civil_war.101.t
-	desc = BBA_italy_civil_war.101.desc
-	picture = GFX_report_event_generic_sign_treaty1
-	
-	is_triggered_only = yes
-
-	# Good
-	option = { 
-		name = BBA_italy_civil_war.101.a
-
-		effect_tooltip = {
-			FROM = {
-				custom_effect_tooltip = ITA_we_will_transfer_the_following_states_tt
-				every_controlled_state = {
-					limit = {
-						OR = {
-							has_state_flag = ITA_cw_state_split
-							is_owned_by = RSI
-						}
-					}
-				}
-			}
-		}
-
-		hidden_effect = {
-			FROM = {
-				every_controlled_state = {
-					limit = {
-						OR = {
-							has_state_flag = ITA_cw_state_split
-							is_owned_by = RSI
-						}
-					}
-					ROOT = { transfer_state = PREV }
-				}
-			}
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_civil_war.101
+#	title = BBA_italy_civil_war.101.t
+#	desc = BBA_italy_civil_war.101.desc
+#	picture = GFX_report_event_generic_sign_treaty1
+#	
+#	is_triggered_only = yes
+#
+#	# Good
+#	option = { 
+#		name = BBA_italy_civil_war.101.a
+#
+#		effect_tooltip = {
+#			FROM = {
+#				custom_effect_tooltip = ITA_we_will_transfer_the_following_states_tt
+#				every_controlled_state = {
+#					limit = {
+#						OR = {
+#							has_state_flag = ITA_cw_state_split
+#							is_owned_by = RSI
+#						}
+#					}
+#				}
+#			}
+#		}
+#
+#		hidden_effect = {
+#			FROM = {
+#				every_controlled_state = {
+#					limit = {
+#						OR = {
+#							has_state_flag = ITA_cw_state_split
+#							is_owned_by = RSI
+#						}
+#					}
+#					ROOT = { transfer_state = PREV }
+#				}
+#			}
+#		}
+#	}
+#}
 
 
 ############################
@@ -5887,45 +5886,45 @@ country_event = {
 ####################################
 ### THE COUNCIL DEPOSES THE DUCE ###
 ####################################
-country_event = {
-	id = BBA_italy_council_deposes_duce.1
-	title = BBA_italy_council_deposes_duce.1.t
-	desc = BBA_italy_council_deposes_duce.1.desc
-	picture = GFX_report_event_generic_italian_fascists
-
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					NOT = {
-						has_country_flag = ITA_deposed_leader_flag
-					}
-				}
-				set_country_flag = ITA_deposed_leader_flag
-				random_character = {
-					limit = {
-						is_country_leader = yes
-					}
-					set_variable = { ITA.ITA_var_deposed_leader = THIS } #For loc purposes
-				}
-			}
-		}
-	}
-
-	option = { 
-		name = BBA_italy_council_deposes_duce.1.a
-		ITA_grand_council = {
-			promote_character = yes
-		}
-		hidden_effect = {
-			every_country = {
-				news_event = { id = bba_news.109 hours = 2 }
-			}
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_council_deposes_duce.1
+#	title = BBA_italy_council_deposes_duce.1.t
+#	desc = BBA_italy_council_deposes_duce.1.desc
+#	picture = GFX_report_event_generic_italian_fascists
+#
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		hidden_effect = {
+#			if = {
+#				limit = {
+#					NOT = {
+#						has_country_flag = ITA_deposed_leader_flag
+#					}
+#				}
+#				set_country_flag = ITA_deposed_leader_flag
+#				random_character = {
+#					limit = {
+#						is_country_leader = yes
+#					}
+#					set_variable = { ITA.ITA_var_deposed_leader = THIS } #For loc purposes
+#				}
+#			}
+#		}
+#	}
+#
+#	option = { 
+#		name = BBA_italy_council_deposes_duce.1.a
+#		ITA_grand_council = {
+#			promote_character = yes
+#		}
+#		hidden_effect = {
+#			every_country = {
+#				news_event = { id = bba_news.109 hours = 2 }
+#			}
+#		}
+#	}
+#}
 
 #####################
 ###PURGE THE PARTY###
@@ -6103,168 +6102,168 @@ country_event = {
 ###########################
 ###THE FATE OF MUSSOLINI###
 ###########################
-country_event = {
-	id = BBA_italy_decide_the_fate_of_mussolini.1
-	title = BBA_italy_decide_the_fate_of_mussolini.1.t
-	desc = BBA_italy_decide_the_fate_of_mussolini.1.desc
-	picture = GFX_report_event_generic_mussolini
-
-	is_triggered_only = yes
-
-	option = { #Trial 
-		name = BBA_italy_decide_the_fate_of_mussolini.1.a
-		ai_chance = {
-			base = 5
-			modifier = {
-				add = 35
-				has_dino_grandi = yes
-			}
-		}
-		custom_effect_tooltip = ITA_mussolini_stands_trial_tt
-		country_event = { id = BBA_italy_decide_the_fate_of_mussolini.2 days = 10 }
-	}
-
-	option = { #Execution
-		name = BBA_italy_decide_the_fate_of_mussolini.1.b
-		ai_chance = {
-			base = 10
-		}
-		add_political_power = 75
-		add_stability = -0.05 
-		add_popularity = {
-		    ideology = fascism
-		    popularity = -0.05
-		}
-		remove_ideas = ITA_shadow_of_mussolini
-
-		ITA_bop_medium_increase_effect = yes
-
-		hidden_effect = {
-			retire_character = ITA_benito_mussolini
-			news_event = { id = bba_news.101 hours = 12 random_hours = 6 } 
-		}
-	}
-
-	option = { #Assassination
-		name = BBA_italy_decide_the_fate_of_mussolini.1.c
-		ai_chance = {
-			base = 10
-			modifier = {
-				add = 20
-				has_country_leader = {
-					character = ITA_italo_balbo
-					ruling_only = yes
-				}
-			}
-		}	
-		custom_effect_tooltip = ITA_mussolini_is_assassinated_tt
-		country_event = { id = BBA_italy_decide_the_fate_of_mussolini.3 days = 5 } 
-	}
-}
+#country_event = {
+#	id = BBA_italy_decide_the_fate_of_mussolini.1
+#	title = BBA_italy_decide_the_fate_of_mussolini.1.t
+#	desc = BBA_italy_decide_the_fate_of_mussolini.1.desc
+#	picture = GFX_report_event_generic_mussolini
+#
+#	is_triggered_only = yes
+#
+#	option = { #Trial 
+#		name = BBA_italy_decide_the_fate_of_mussolini.1.a
+#		ai_chance = {
+#			base = 5
+#			modifier = {
+#				add = 35
+#				has_dino_grandi = yes
+#			}
+#		}
+#		custom_effect_tooltip = ITA_mussolini_stands_trial_tt
+#		country_event = { id = BBA_italy_decide_the_fate_of_mussolini.2 days = 10 }
+#	}
+#
+#	option = { #Execution
+#		name = BBA_italy_decide_the_fate_of_mussolini.1.b
+#		ai_chance = {
+#			base = 10
+#		}
+#		add_political_power = 75
+#		add_stability = -0.05 
+#		add_popularity = {
+#		    ideology = fascism
+#		    popularity = -0.05
+#		}
+#		remove_ideas = ITA_shadow_of_mussolini
+#
+#		ITA_bop_medium_increase_effect = yes
+#
+#		hidden_effect = {
+#			retire_character = ITA_benito_mussolini
+#			news_event = { id = bba_news.101 hours = 12 random_hours = 6 } 
+#		}
+#	}
+#
+#	option = { #Assassination
+#		name = BBA_italy_decide_the_fate_of_mussolini.1.c
+#		ai_chance = {
+#			base = 10
+#			modifier = {
+#				add = 20
+#				has_country_leader = {
+#					character = ITA_italo_balbo
+#					ruling_only = yes
+#				}
+#			}
+#		}	
+#		custom_effect_tooltip = ITA_mussolini_is_assassinated_tt
+#		country_event = { id = BBA_italy_decide_the_fate_of_mussolini.3 days = 5 } 
+#	}
+#}
 
 #MUSSOLINI STANDS ON TRIAL
-country_event = {
-	id = BBA_italy_decide_the_fate_of_mussolini.2
-	title = BBA_italy_decide_the_fate_of_mussolini.2.t
-	desc = BBA_italy_decide_the_fate_of_mussolini.2.desc
-	picture = GFX_report_event_generic_mussolini
-
-	is_triggered_only = yes
-
-	option = { #acquitted
-		name = BBA_italy_decide_the_fate_of_mussolini.2.a
-		ai_chance = {
-			base = 1
-		}
-		remove_ideas = ITA_shadow_of_mussolini
-		custom_effect_tooltip = ITA_mussolini_walks_free_tt
-		hidden_effect = {
-			set_country_flag = ITA_mussolini_is_innocent
-			news_event = { id = bba_news.102 hours = 16 random_hours = 4 } 
-		}
-	}
-
-	option = { #imprisonment
-		name = BBA_italy_decide_the_fate_of_mussolini.2.b
-		ai_chance = {
-			base = 10
-		}
-		add_political_power = 50
-		add_popularity = {
-		    ideology = fascism
-		    popularity = 0.05
-		} 
-		
-		remove_ideas = ITA_shadow_of_mussolini
-
-		ITA_bop_low_increase_effect = yes
-
-		hidden_effect = {
-			set_country_flag = ITA_mussolini_is_guilty
-			news_event = { id = bba_news.102 hours = 16 random_hours = 4 }
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_decide_the_fate_of_mussolini.2
+#	title = BBA_italy_decide_the_fate_of_mussolini.2.t
+#	desc = BBA_italy_decide_the_fate_of_mussolini.2.desc
+#	picture = GFX_report_event_generic_mussolini
+#
+#	is_triggered_only = yes
+#
+#	option = { #acquitted
+#		name = BBA_italy_decide_the_fate_of_mussolini.2.a
+#		ai_chance = {
+#			base = 1
+#		}
+#		remove_ideas = ITA_shadow_of_mussolini
+#		custom_effect_tooltip = ITA_mussolini_walks_free_tt
+#		hidden_effect = {
+#			set_country_flag = ITA_mussolini_is_innocent
+#			news_event = { id = bba_news.102 hours = 16 random_hours = 4 } 
+#		}
+#	}
+#
+#	option = { #imprisonment
+#		name = BBA_italy_decide_the_fate_of_mussolini.2.b
+#		ai_chance = {
+#			base = 10
+#		}
+#		add_political_power = 50
+#		add_popularity = {
+#		    ideology = fascism
+#		    popularity = 0.05
+#		} 
+#		
+#		remove_ideas = ITA_shadow_of_mussolini
+#
+#		ITA_bop_low_increase_effect = yes
+#
+#		hidden_effect = {
+#			set_country_flag = ITA_mussolini_is_guilty
+#			news_event = { id = bba_news.102 hours = 16 random_hours = 4 }
+#		}
+#	}
+#}
 
 #MUSSOLINI IS ASSASSINATED
-country_event = {
-	id = BBA_italy_decide_the_fate_of_mussolini.3
-	title = BBA_italy_decide_the_fate_of_mussolini.3.t
-	desc = BBA_italy_decide_the_fate_of_mussolini.3.desc
-	picture = GFX_report_event_generic_mussolini
-
-	is_triggered_only = yes
-
-	option = { #Blame Communists
-		name = BBA_italy_decide_the_fate_of_mussolini.3.a
-
-		ai_chance = {
-			base = 10
-			modifier = {
-				add = 10
-				has_country_leader = {
-					character = ITA_italo_balbo
-					ruling_only = yes
-				}
-			}
-		}
-
-		add_war_support = 0.05
-		add_popularity = {
-		    ideology = communism
-		    popularity = -0.05
-		} 
-		remove_ideas = ITA_shadow_of_mussolini
-		hidden_effect = {
-			set_country_flag = ITA_mussolini_blame_communists
-			retire_character = ITA_benito_mussolini
-			news_event = { id = bba_news.103 hours = 8 random_hours = 2 } 
-		}
-	}
-
-	option = { #Cover Story
-		name = BBA_italy_decide_the_fate_of_mussolini.3.b
-
-		ai_chance = {
-			base = 10
-			modifier = {
-				add = 10
-				has_dino_grandi = yes
-			}
-		}
-
-		add_political_power = 25
-
-		ITA_bop_very_low_increase_effect = yes
-
-		remove_ideas = ITA_shadow_of_mussolini
-		hidden_effect = {
-			set_country_flag = ITA_mussolini_cover_story
-			retire_character = ITA_benito_mussolini
-			news_event = { id = bba_news.103 hours = 8 random_hours  = 2 } 
-		}
-	}
-}
+#country_event = {
+#	id = BBA_italy_decide_the_fate_of_mussolini.3
+#	title = BBA_italy_decide_the_fate_of_mussolini.3.t
+#	desc = BBA_italy_decide_the_fate_of_mussolini.3.desc
+#	picture = GFX_report_event_generic_mussolini
+#
+#	is_triggered_only = yes
+#
+#	option = { #Blame Communists
+#		name = BBA_italy_decide_the_fate_of_mussolini.3.a
+#
+#		ai_chance = {
+#			base = 10
+#			modifier = {
+#				add = 10
+#				has_country_leader = {
+#					character = ITA_italo_balbo
+#					ruling_only = yes
+#				}
+#			}
+#		}
+#
+#		add_war_support = 0.05
+#		add_popularity = {
+#		    ideology = communism
+#		    popularity = -0.05
+#		} 
+#		remove_ideas = ITA_shadow_of_mussolini
+#		hidden_effect = {
+#			set_country_flag = ITA_mussolini_blame_communists
+#			retire_character = ITA_benito_mussolini
+#			news_event = { id = bba_news.103 hours = 8 random_hours = 2 } 
+#		}
+#	}
+#
+#	option = { #Cover Story
+#		name = BBA_italy_decide_the_fate_of_mussolini.3.b
+#
+#		ai_chance = {
+#			base = 10
+#			modifier = {
+#				add = 10
+#				has_dino_grandi = yes
+#			}
+#		}
+#
+#		add_political_power = 25
+#
+#		ITA_bop_very_low_increase_effect = yes
+#
+#		remove_ideas = ITA_shadow_of_mussolini
+#		hidden_effect = {
+#			set_country_flag = ITA_mussolini_cover_story
+#			retire_character = ITA_benito_mussolini
+#			news_event = { id = bba_news.103 hours = 8 random_hours  = 2 } 
+#		}
+#	}
+#}
 
 ################################################
 ###ITALY ASKS ENGLAND/FRANCE FOR TECH SHARING###
