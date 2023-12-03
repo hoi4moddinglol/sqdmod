@@ -3931,7 +3931,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					ICE = {
+					DEN = {
 						exists = no
 					}
 					NOT = {
@@ -3956,12 +3956,12 @@ focus_tree = {
 					limit = {
 						NOT = {
 							any_allied_country = {
-								has_subject = ICE
+								has_subject = DEN
 							}
 						}
 					}
 					create_wargoal = {
-						target = ICE 
+						target = DEN
 						type = annex_everything 
 					}
 				}
@@ -7295,7 +7295,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			ICE = {
+			DEN = {
 				all_core_state = {
 					is_controlled_by = DEN
 				}
@@ -7307,11 +7307,11 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					ICE = {
+					DEN = {
 						is_subject_of = PREV
 					}
 				}
-				ICE = { country_event = { id = denmark_expansion_event.1 days = 1 }}
+				DEN = { country_event = { id = denmark_expansion_event.1 days = 1 }}
 				custom_effect_tooltip = if_they_accept_tt
 				event_option_tooltip = denmark_expansion_event.2.a
 				custom_effect_tooltip = if_they_refuse_tt
@@ -7319,12 +7319,12 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					ICE = {
+					DEN = {
 						is_subject = yes
 						NOT = { is_subject_of = PREV }
 					}
 				}
-				ICE = {
+				DEN = {
 					OVERLORD = { country_event = { id = denmark_expansion_event.5 days = 1 }}
 				}
 				custom_effect_tooltip = if_they_accept_tt
@@ -7334,13 +7334,13 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					ICE = {
+					DEN = {
 						exists = yes
 					}
 				}
 				create_wargoal = {
 				    type = annex_everything
-				    target = ICE
+				    target = DEN
 				}
 			}
 			if = {
@@ -7377,7 +7377,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			ICE = {
+			DEN = {
 				every_core_state = {
 					add_core_of = ROOT
 				}
