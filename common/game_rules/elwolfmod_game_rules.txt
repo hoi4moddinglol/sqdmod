@@ -8,7 +8,7 @@ sov_no_tradebacks = {
 		desc = "No soviet exclusive no-tradeback spirit (Reccomended)"
 	}
 	option = {
-		name = on
+		name = off
 		text = "ROn"
 		desc = "Soviets get their own no-tradeback spirit (no factory resource penalty) until war with Germany (Not Reccomended)"
 	}
@@ -55,7 +55,7 @@ sov_closed_eco = {
 		desc = "Soviets start on export focus (Reccomended)"
 	}
 	option = {
-		name = on
+		name = off
 		text = "ROn"
 		desc = "Soviets start the game on closed eco, free trade bonuses, and 5 extra civs (Not Reccomended)"
 	}
@@ -71,7 +71,7 @@ allied_engine_bonus = {
 		desc = "No Allied engine bonus (Not Reccomended)"
 	}
 	default = {
-		name = on
+		name = off
 		text = "GOn"
 		desc = "USA and UK and get a 100% research boost to engine 4 (Reccomended)"
 	}
@@ -113,7 +113,7 @@ german_anti_tank_bonus = {
 		desc = "No German Anti-Tank bonuses (Not Reccomended)"
 	}
 	default = {
-		name = on
+		name = off
 		text = "GOn"
 		desc = "Germany has a decision to give them 2 Anti-Tank 100% research bonuses (Reccomended)"
 	}
