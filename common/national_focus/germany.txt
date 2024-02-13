@@ -2084,6 +2084,7 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = light_fighter
+			add_research_slot = 1
 			}	
 			}
 			every_state = {
@@ -2115,6 +2116,7 @@ focus_tree = {
 				uses = 1
 				category = light_fighter
 			}	
+			add_research_slot = 1
 			if = {
 				limit = {
 					NOT = {
