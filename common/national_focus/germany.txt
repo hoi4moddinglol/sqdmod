@@ -2313,8 +2313,19 @@ focus_tree = {
 			# Balance research bonus for 2 techs under land_doctrine
 			
 			army_experience = 10
-
-			
+			add_tech_bonus = {
+				name = GER_steal_soviet_anti_tank_research_swap
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = GER_rush_mech
+				ahead_reduction = 2
+				bonus = 3
+				uses = 1
+				category = motorized_equipment
+			}
 			add_doctrine_cost_reduction = {
 				name = land_doc_bonus
 				cost_reduction = 0.5

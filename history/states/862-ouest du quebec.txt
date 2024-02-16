@@ -1,6 +1,11 @@
 state={
 	id=862
 	name="STATE_862"
+	resources = {
+		tungsten = 42 # canada trade buff
+		steel = 72 # canada trade buff
+		chromium = 42 # canada trade buff
+	}
 	provinces={
 		983 1341 1764 3911 7435 7875 10249 10700 11682 11902 12205 12276 
 	}

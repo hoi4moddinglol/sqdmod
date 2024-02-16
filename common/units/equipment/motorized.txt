@@ -19,6 +19,7 @@ equipments = {
 		hardness = 0.1
 
 		breakthrough = 5
+		defense = 8
 
 		#Space taken in convoy
 		lend_lease_cost = 5
