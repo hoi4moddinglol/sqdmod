@@ -705,6 +705,10 @@ focus_tree = {
 			ROM = { country_event = { id = DOD_hungary.50 } }
 			hidden_effect = {
 				news_event = { id = news.300 }
+                        transfer_state = 76
+                        transfer_state = 83
+                        transfer_state = 84
+                        transfer_state = 82
 			}
 		}
 	}
