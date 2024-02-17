@@ -349,6 +349,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_threat = 1
+			remove_idea = HUN_treaty_of_triannon
 			if = {
 				limit = { 
 					FRA = { 
