@@ -841,7 +841,6 @@ country_event = {
 		name = DOD_hungary.31.a
 		swap_ideas = {
 			remove_idea = HUN_treaty_of_triannon
-			add_idea = Hun_treaty_of_triannon_2
 		}
 	}
 
