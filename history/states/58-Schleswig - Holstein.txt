@@ -2,7 +2,7 @@ state= {
 	id=58
 	name="STATE_58"
 	manpower = 3248150 
-	state_category = large_city
+	state_category = megalopolis
 	
 	history=
 	{
@@ -15,7 +15,7 @@ state= {
 		owner = GER
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 9
 			dockyard = 6
 			air_base = 5
 			6389 ={

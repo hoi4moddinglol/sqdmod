@@ -8,6 +8,7 @@ state={
 		steel = 96
 		tungsten = 72
 		chromium = 46
+		rubber = 96
 	}
 
 	history={
