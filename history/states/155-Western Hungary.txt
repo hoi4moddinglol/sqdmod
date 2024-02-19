@@ -5,8 +5,6 @@ state={
 	resources={
 		oil=1.000
 		aluminium=60.000
-		steel = 96
-		tungsten = 36
 	}
 
 	history={
@@ -19,7 +17,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 8
+			industrial_complex = 3
 			arms_factory = 2
 			air_base = 3
 
@@ -33,6 +31,6 @@ state={
 	}
 	manpower=2197605
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=city
 	local_supplies=0.000
 }

@@ -99,9 +99,8 @@ categories =  {
 		sound_type = plains
 		
 		units = {
-			defence = -0.2
-			attack = 0.1
-			movement = 0.3
+			defence = -0.1
+			#movement = 0.1
 		}
 	}
 	
@@ -162,8 +161,8 @@ categories =  {
 		sound_type = forest
 
 		units = {
-			attack = -0.2
-			movement = -0.5
+			attack = -0.4
+			#movement = -0.4
 		}
 		
 		sickness_chance = 1.0
@@ -175,8 +174,8 @@ categories =  {
 	
 	desert = {
 		color = { 255 127 0 }
-		#movement_cost = 1.5
-		#attrition = 0.2
+		movement_cost = 1.5
+		attrition = 0.2
 		combat_width = 120
 		combat_support_width = 30
 		ai_terrain_importance_factor = 8.0
@@ -184,9 +183,9 @@ categories =  {
 		sound_type = desert
 		
 		units = {
-		    attack = -0.10
-			defence = -0.20
-			movement = -0.20	
+		    attack = -0.15
+			defence = -0.15
+			movement = -0.30	
 		}
 		army_attack_speed_factor = -0.20
 		sickness_chance = 0.10

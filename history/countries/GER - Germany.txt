@@ -90,7 +90,7 @@ if = {
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
-		engine_tech_1 = 2
+		engine_tech_1 = 1
 	}
 }
 if = {
@@ -158,8 +158,8 @@ set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.85 
-set_war_support = 0.45
+set_stability = 0.75 
+set_war_support = 0.3
 
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }

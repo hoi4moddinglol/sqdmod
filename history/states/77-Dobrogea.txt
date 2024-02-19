@@ -4,7 +4,7 @@ state={
 	name="STATE_77"
 	manpower = 378000
 	
-	state_category = megalopolis
+	state_category = rural
 
 	history={
 		victory_points = {

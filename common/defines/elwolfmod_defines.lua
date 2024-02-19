@@ -1,6 +1,4 @@
---Combat Modifier
-NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.20                 -- vanilla -0.30 | small river crossing
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.40          -- vanilla -0.6 | large river crossing
+
 --Convoy Prio
 
 NDefines.NNavy.NAVAL_INVASION_PRIORITY = 1								-- Default convoy priority for naval invasions

@@ -216,13 +216,13 @@ force_attack_last_stand = {
 	icon = "GFX_decision_eng_trade_unions_support"
 	default = {
 		name = on
-		text = "GOff"
-		desc = "Banned (Reccomended)"
+		text = "GOn"
+		desc = "Normal like vanilla (Reccomended)"
 	}
 	option = {
 		name = off
-		text = "ROn"
-		desc = "Allowed (Not Reccomended)"
+		text = "ROff"
+		desc = "Banned (Not Reccomended)"
 	}
 }
 
@@ -247,13 +247,13 @@ elwolf_guerrilla_tactics = {
 	group = "elwolfmod Rules"
 	icon = "GFX_decision_hol_war_on_pacifism"
 	default = {
-		name = BLOCKED
-		text = "GBlocked"
-		desc = "Gurilla Tatics are not able to be Selected"
+		name = ALLOWED
+		text = "GAllowed"
+		desc = "Gurilla Tatics are able to be Selected"
 	}
 	option = {
-		name = ALLOWED
+		name = BLOCKED
 		text = "RBanned"
-		desc = "Gurilla Tatics are able to be Selected"
+		desc = "Gurilla Tatics are not able to be Selected"
 	}
 }
