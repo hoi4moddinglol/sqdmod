@@ -54,7 +54,7 @@ focus_tree = {
 				name = BUL_acquire_modern_tools
 				bonus = 1.25
 				uses = 1
-				category = industry_late
+				category = industry
 			}
 		}
 	}
@@ -463,10 +463,9 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = BUL_mineral_extraction_in_the_rhodopes
-			    bonus = 0.75
-				ahead_reduction = 2.5
+			    bonus = 2
 			    uses = 1
-			    category = industry_late
+			    category = industry
 			}
 		}
 	}
