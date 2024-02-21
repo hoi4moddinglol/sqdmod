@@ -4,12 +4,14 @@ state={
 	name="STATE_53"
 	manpower = 1453365
 	
-	state_category = city
+	state_category = megalopolis
 
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 3
 		}
 		add_core_of = GER
 		victory_points = {

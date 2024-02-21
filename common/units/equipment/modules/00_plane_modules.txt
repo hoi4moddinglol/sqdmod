@@ -1486,7 +1486,6 @@ equipment_modules = {
 			weight = 1
 			air_agility = -5
 			surface_detection = 5
-			sub_detection = 3
 		}
 		multiply_stats = {
 			maximum_speed = -0.3

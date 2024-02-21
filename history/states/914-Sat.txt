@@ -1,11 +1,13 @@
 state={
 	id=914
 	name="STATE_914"
-	
+	resources={
+		rubber = 32
+	}
 	history={
 		owner = ROM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 2
 
 		}
