@@ -14,13 +14,13 @@ ideas = {
 			
 				modifier = {
 					planning_speed = 0.15
-					fuel_gain_factor = 1.5
-					supply_factor = 0.3
-					attrition = -0.2
 					winter_attrition = -0.2
-					supply_node_range = 0.2
-					attack_bonus_against_SOV = 0.08
+					attrition = -0.2
+				}
+				targeted_modifier = {
+					tag = SOV
+					attack_bonus_against = 0.1
+				}
 			}
 		}	
 	}
-}

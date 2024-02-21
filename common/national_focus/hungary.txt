@@ -665,15 +665,6 @@ focus_tree = {
 				controls_state = 83
 				controls_state = 84
 			}
-			is_puppet = no
-			NOT = {
-				is_in_faction_with = ROM
-			}
-			NOT = {
-				has_war_with = ROM
-			}
-			strength_ratio = { tag = ROM ratio > 0.66 }
-			has_army_manpower = { size > 200000 }
 		
 		}
 
