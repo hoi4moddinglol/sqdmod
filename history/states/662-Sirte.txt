@@ -4,9 +4,9 @@ state={
 	name="STATE_662"
 
 	history={
-		owner = ITA
+		owner = LBY
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
 
 		}
 		add_core_of = SWE
@@ -19,5 +19,5 @@ state={
 	manpower=13213
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
+	local_supplies=13.000
 }

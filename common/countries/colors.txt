@@ -176,3 +176,7 @@ PHI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+LBY = {
+	color = rgb { 9 112 23 }
+	color_ui = rgb { 87 165 82 }
+}

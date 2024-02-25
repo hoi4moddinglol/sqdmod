@@ -4,7 +4,7 @@ state={
 	name="STATE_448"
 
 	history={
-		owner = ITA
+		owner = LBY
 		victory_points = {
 			13340 20 
 		}
@@ -18,7 +18,7 @@ state={
 			7066 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
 			air_base = 6
 			13340 = {
 				naval_base = 5
@@ -36,5 +36,5 @@ state={
 	manpower=469136
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
+	local_supplies=13.000
 }

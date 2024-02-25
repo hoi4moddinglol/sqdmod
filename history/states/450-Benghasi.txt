@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = LBY
 		victory_points = {
 			13297 10 
 		}
@@ -18,10 +18,10 @@ state={
 			12094 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 7
 			air_base = 1
 			13297 = {
-				naval_base = 1
+				naval_base = 10
 
 			}
 
@@ -36,5 +36,5 @@ state={
 	manpower=82535
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	local_supplies=0.000
+	local_supplies=13.000
 }

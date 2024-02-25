@@ -1,0 +1,18 @@
+﻿capital = 1149
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Ahmed bin Italia"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = fascism
+	traits = {
+	}
+set_popularities = {
+	fascism = 100
+}
