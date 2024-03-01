@@ -1,0 +1,8 @@
+ideas = {
+    country = {
+      Libya_Cap_Limit = {
+          modifier = {
+              surrender_limit = 0.20
+            }
+        }
+}
