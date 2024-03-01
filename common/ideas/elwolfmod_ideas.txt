@@ -30,8 +30,38 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				send_volunteer_size = -100
 				air_volunteer_cap = -1000
+				send_volunteers_tension = -1
+			}
+		}
+		volunteers_major_axis = {
+			picture = air_support_focus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 5
+			}
+		}
+		volunteers_major_allies = {
+			picture = air_support_focus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 2
+			}
+		}
+		volunteers_sov_cap = {
+			picture = air_support_focus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 3
 			}
 		}
 		elwolfmod_noasia_research = {

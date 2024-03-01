@@ -1,0 +1,63 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_rule = {
+					can_send_volunteers = no
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = SOV
+						tag = ENG
+						tag = FRA
+						tag = GER
+						tag = ITA
+						}
+					}
+					set_rule = {
+						can_send_volunteers = yes
+					}
+				}
+			}
+		}
+    on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					OR = {
+						TAG = GER
+						TAG = ITA
+				}
+			}
+					add_ideas = volunteers_major_axis
+		}
+	}
+}
+    on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					OR = {
+						TAG = ENG
+						TAG = FRA
+				}
+			}
+					add_ideas = volunteers_major_allies
+		}
+	}
+}
+    on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					OR = {
+						TAG = SOV
+				}
+			}
+					add_ideas = volunteers_sov_cap
+		}
+	}
+}
+}

@@ -405,6 +405,7 @@ operations = {
 			if = { limit = { country_exists = ENG }	LBY = { add_to_war = { targeted_alliance = GER enemy = ENG } } }
 		}
 	}
+	}
 	conquer_and_divide = {
 		# icon = generic_operation
 		allowed = {
