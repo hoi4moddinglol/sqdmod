@@ -1,0 +1,3 @@
+l_english:
+ Libya_Cap_Limit_idea: "Libya Cook"
+ Libya_Cap_Limit_idea_desc: "MMMM"
