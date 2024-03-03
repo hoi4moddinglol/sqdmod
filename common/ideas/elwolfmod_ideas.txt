@@ -152,6 +152,7 @@ ideas = {
 				army_fuel_consumption_factor = -0.9
 				air_fuel_consumption_factor = -0.9
 				navy_fuel_consumption_factor = -0.9
+				experience_gain_army = 0.25
 			}
 		}
 		ai_limiter = {

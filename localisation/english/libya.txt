@@ -1,3 +1,0 @@
-﻿l_english:
- libya_Cap_idea: "Libyan Superhouse"
- libya_Cap_idea_desc: "MMMM"

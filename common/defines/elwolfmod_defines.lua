@@ -22,6 +22,8 @@ NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 720
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 13 							    -- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	    -- WAS 60 | less messages lying around at the top of your screen
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0 -- 0.0015
+NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0 -- 0.5
 
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "elwolfmod"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "elwolfmod"
