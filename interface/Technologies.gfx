@@ -16,7 +16,14 @@ spriteTypes = {
 		name = "GFX_archetype_fighter_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_fighter_equipment.dds"
 	}		
-	
+	SpriteType = {
+		name = "GFX_protein_medium"
+		texturefile = "gfx/interface/technologies/protein.png"
+	}
+	SpriteType = {
+		name = "GFX_bullets_medium"
+		texturefile = "gfx/interface/technologies/bullets.png"
+	}
 	SpriteType = {
 		name = "GFX_archetype_strat_bomber_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_strat_bomber_equipment.dds"
