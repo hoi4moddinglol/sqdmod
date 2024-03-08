@@ -16,10 +16,11 @@ replace_path="history/units/"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
 replace_path="events"
+replace_path="map/strategicregions"
 tags={
 	"Balance"
 	"Historical"
 }
 name="sqdmod"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="3094373494"

@@ -92,81 +92,10 @@
 	}
 
 	focus = {
-		id = ROM_a_deal_with_the_devil
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = ROM_preserve_greater_romania }
-		x = -2
-		y = 1
-		relative_position_id = ROM_preserve_greater_romania
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-			NOT = { has_war_with = SOU }
-			SOU = {
-				exists = yes
-				is_puppet = no
-				has_civil_war = no
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			add_popularity = { ideology = communism popularity = 0.1 }
-			add_opinion_modifier = { target = SOV modifier = ROM_a_deal_with_the_devil }
-			SOV = { add_opinion_modifier = { target = ROOT modifier = ROM_a_deal_with_the_devil } }
-		}
-	}
-
-	focus = {
-		id = ROM_form_peasant_militias
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = ROM_a_deal_with_the_devil }
-		x = 0
-		y = 1
-		relative_position_id = ROM_a_deal_with_the_devil
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_POLITICAL }
-
-		completion_reward = {
-			add_ideas = ROM_a_deal_with_the_devil_2
-		}
-	}
-
-	focus = {
 		id = ROM_trade_treaty_with_germany
 		icon = GFX_goal_generic_trade
 		prerequisite = { focus = ROM_preserve_greater_romania }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = ROM_preserve_greater_romania
 
@@ -396,7 +325,7 @@
 		id = ROM_civil_works
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROM_preserve_greater_romania }
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = ROM_preserve_greater_romania
 
@@ -422,7 +351,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_civil_works
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = industry
 			}
@@ -437,7 +366,7 @@
 		y = 1
 		relative_position_id = ROM_civil_works
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -469,7 +398,7 @@
 		y = 1
 		relative_position_id = ROM_agrarian_reform
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -601,10 +530,10 @@
 				limit = {
 					has_state_flag = ROM_malaxa_IC
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -621,10 +550,10 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = ROM_malaxa_IC
@@ -673,7 +602,7 @@
 		y = 1
 		relative_position_id = ROM_malaxa
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -743,7 +672,7 @@
 		y = 4
 		relative_position_id = ROM_civil_works
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -984,7 +913,7 @@
 		y = 1
 		relative_position_id = ROM_institute_royal_dictatorship
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1015,7 +944,7 @@
 		y = 1
 		relative_position_id = ROM_institute_royal_dictatorship
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1139,7 +1068,7 @@
 		y = 2
 		relative_position_id = ROM_institute_royal_dictatorship
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -1170,7 +1099,7 @@
 		y = 1
 		relative_position_id = ROM_flexible_foreign_policy
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1326,7 +1255,7 @@
 		relative_position_id = ROM_appoint_german_friendly_government
 		mutually_exclusive = { focus = ROM_national_christian_party }
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1392,7 +1321,7 @@
 		relative_position_id = ROM_appoint_german_friendly_government
 		mutually_exclusive = { focus = ROM_iron_guard }
 		
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1461,7 +1390,7 @@
 		y = 2
 		relative_position_id = ROM_appoint_german_friendly_government
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -1530,102 +1459,9 @@
 				add_idea = ROM_figurehead_king_michael
 				remove_idea = ROM_king_carol_ii_hedonist
 			}
-			remove_ideas = ROM_the_sentinel_of_the_motherland
-			add_timed_idea = { idea = ROM_king_carol_emptied_accounts days = 360 }
 			hidden_effect = {
 				news_event = { id = news.323 days = 1 }
 			}
-		}
-	}
-
-	focus = {
-		id = ROM_king_michaels_coup
-		icon = GFX_focus_rom_coup
-		prerequisite = { focus = ROM_force_abdication }
-		x = 0
-		y = 1
-		relative_position_id = ROM_force_abdication
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_completed_focus = ROM_iron_guard
-			}
-		}
-
-		available = {
-			is_subject = no
-			OR = {
-				has_war = yes
-				threat > 0.25
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			unlock_decision_category_tooltip = ROM_change_sides
-			if = {
-				limit = {
-					POL = {
-						has_country_leader = {
-							character = ROM_king_michael
-							ruling_only = yes
-						}
-					}
-				}
-				set_cosmetic_tag = ROM_polish_loyalists
-				set_politics = {
-					ruling_party = neutrality
-					elections_allowed = no
-				}
-				set_political_party = {
-					ideology = neutrality
-					popularity = 50
-				}
-				POL = {
-					set_autonomy = {
-						target = ROM
-						autonomy_state = autonomy_personal_union
-					}
-				}
-			}
-			else = {
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-				set_political_party = {
-					ideology = democratic
-					popularity = 50
-				}
-				promote_character = { character = ROM_king_michael ideology = liberalism }
-			}
-			if = {
-				limit = {
-					has_idea = ROM_king_carol_ii_hedonist
-				}
-				remove_ideas = ROM_king_carol_ii_hedonist
-			}
-			remove_ideas = ROM_iron_guard
-			hidden_effect = {
-				news_event = { id = news.322 days = 1 }
-				set_country_flag = can_change_sides_dem
-				set_country_flag = can_change_sides_com
-				set_country_flag = can_change_sides_fas				
-			}
-			unlock_decision_tooltip = ROM_change_sides_to_allies
-			unlock_decision_tooltip = ROM_change_sides_to_axis
-			unlock_decision_tooltip = ROM_change_sides_to_commintern
 		}
 	}
 

@@ -3,12 +3,13 @@ state={
 	id=848
 	name="STATE_848"
 	manpower = 154354
-	state_category = pastoral
+	state_category = megalopolis
 	history={
 		owner = AUS
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 3
 		}
 		add_core_of = AUS
 		add_claim_by = SWI

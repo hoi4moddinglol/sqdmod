@@ -163,6 +163,9 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_anti_air_cannon
+			tank_auto_cannon
+			tank_small_cannon
+			tank_close_support_gun
 		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
@@ -262,6 +265,8 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_anti_air_cannon_2
+			tank_auto_cannon_2
+			tank_small_cannon_2
 		}
 		research_cost = 2
 		start_year = 1936
@@ -752,7 +757,6 @@ technologies = {
 			tank_anti_air_cannon_3
 			tank_medium_cannon_3
 			tank_rocket_launcher_2
-			tank_high_velocity_cannon_3
 		}		
 		ai_will_do = {
 			factor = 1
