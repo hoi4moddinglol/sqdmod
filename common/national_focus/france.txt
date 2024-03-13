@@ -476,8 +476,8 @@ if = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_laissez_faire
-				uses = 2
-				bonus = 1.0
+				uses = 3
+				bonus = 1.5
 				category = industry
 			}
 		}

@@ -2,9 +2,6 @@ state={
 	id=56
 	name="STATE_56"
 	manpower = 2058467
-	resources={
-		rubber = 15
-	}
 	state_category = city
 
 	history={
