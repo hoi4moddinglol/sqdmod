@@ -24,6 +24,10 @@ NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 13 							    -- WAS 48 | drastically cut
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	    -- WAS 60 | less messages lying around at the top of your screen
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0 -- 0.0015
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0 -- 0.5
+INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = 0 -- was -0.05
+COMBAT_OVER_WIDTH_PENALTY = -2.5
+NAVAL_INVASION_PREPARE_HOURS = 72
+SUPPLY_THRESHOLD_FOR_ARMY_ATTRITION = 0.20
 
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "elwolfmod"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "elwolfmod"
