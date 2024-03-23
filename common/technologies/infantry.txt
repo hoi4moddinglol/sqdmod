@@ -438,6 +438,7 @@ technologies = {
 
 		enable_subunits = {
 			paratrooper
+			shock_troops
 		}
 		
 		path = {
@@ -702,6 +703,7 @@ technologies = {
 
 		enable_subunits = {
 			mountaineers
+			jaeger
 		}
 
 		on_research_complete_limit = {
