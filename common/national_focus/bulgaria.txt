@@ -480,19 +480,24 @@ focus_tree = {
 		y = 1
 		cost = 5
 
-		bypass = {
-			hidden_trigger = {
-				NOT = { has_idea = BUL_army_restrictions }
-			}
-		}
-
 		available = {
 
 		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER}
 		completion_reward = {
-			remove_ideas = BUL_army_restrictions
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				remove_ideas = BUL_army_restrictions_aat
+			}
+			if = {
+				limit = {
+					NOT = {	has_dlc = "Arms Against Tyranny" }
+				}
+				remove_ideas = BUL_army_restrictions
+			}
 		}
 	}
 
