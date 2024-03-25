@@ -159,7 +159,7 @@ if = {
 	set_global_flag = MTG_second_london_conference
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
-
+add_ideas = volunteers_major_allies
 if = {
 	limit = {
 		has_dlc = "La Resistance"

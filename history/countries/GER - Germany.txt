@@ -160,7 +160,7 @@ set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
-
+add_ideas = volunteers_sov_cap
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7
@@ -177,6 +177,7 @@ set_war_support = 0.3
 		ludwig_beck
 		gerd_von_rundstedt
 		GER_autarky_idea
+		
 
 		#laws
 		war_economy

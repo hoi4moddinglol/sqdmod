@@ -32,6 +32,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	volunteers_sov_cap
 }
 
 # RESISTANCE / COMPLIANCE

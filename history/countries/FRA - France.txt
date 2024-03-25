@@ -58,6 +58,7 @@ if = {
 set_research_slots = 4
 set_stability = 0.5
 add_command_power = 20
+add_ideas = volunteers_sov_cap
 
 
 # Starting tech

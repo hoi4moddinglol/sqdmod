@@ -347,181 +347,6 @@ focus_tree = {
 #  # ### #     ##  ###  ### ###  ##  #  # #  #     ###   ##  ### ### ###      ##  #    
 
 	focus = {
-		id = SPA_the_corpo_truppe_volontarie
-		available = {
-			NOT = { has_global_flag = scw_over }
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_unify_the_nationalist_front }
-		
-		icon = GFX_focus_befriend_italy
-		x = -6
-		y = 1
-		relative_position_id = SPA_unify_the_nationalist_front
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			ITA = {
-				add_timed_idea = { idea = SPA_spanish_civil_war_commitments days = 730 }
-				add_opinion_modifier = { target = ROOT modifier = SPA_spanish_civil_war_commitments }
-			}
-			add_tech_bonus = {
-				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
-				uses = 1
-				category = infantry_weapons
-			}
-			add_tech_bonus = {
-				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
-				uses = 1
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = SPA_the_condor_legion
-		available = {
-			NOT = { has_global_flag = scw_over }
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_unify_the_nationalist_front }
-		
-		icon = GFX_focus_chi_mission_to_germany
-		x = -8
-		y = 1
-		relative_position_id = SPA_unify_the_nationalist_front
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			GER = {
-				add_timed_idea = { idea = SPA_spanish_civil_war_commitments days = 730 }
-				add_opinion_modifier = { target = ROOT modifier = SPA_spanish_civil_war_commitments }
-			}
-			add_tech_bonus = {
-				name = SPA_the_condor_legion
-				bonus = 1.0
-				uses = 1
-				category = light_fighter
-			}
-			add_tech_bonus = {
-				name = SPA_the_condor_legion
-				bonus = 1.0
-				uses = 1
-				category = cas_bomber
-			}
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SPA_wilhelm_ritter_von_thoma
-		}
-	}
-
-	focus = {
-		id = SPA_equipment_shipments
-		available = {
-			NOT = { has_global_flag = scw_over }
-			
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_the_corpo_truppe_volontarie }
-		prerequisite = { focus = SPA_the_condor_legion }
-		
-		icon = GFX_goal_generic_build_tank
-		x = -1
-		y = 1
-		relative_position_id = SPA_the_corpo_truppe_volontarie
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			GER = {
-				add_timed_idea = { idea = SPR_equipment_shipments days = 730 }
-				add_ai_strategy = { type = send_lend_lease_desire id = SPA value = 200 }
-			}
-			ITA = {
-				add_timed_idea = { idea = SPR_equipment_shipments days = 730 }
-				add_ai_strategy = { type = send_lend_lease_desire id = SPA value = 200 }
-			}
-			add_timed_idea = { idea = SPR_equipment_shipments_spain days = 730 }
-		}
-	}
-
-	focus = {
-		id = SPA_obtain_training_staff
-		available = {
-			NOT = { has_global_flag = scw_over }
-			OR = {
-				has_volunteers_amount_from = {
-					tag = ITA
-					count > 0
-				}
-				has_volunteers_amount_from = {
-					tag = GER
-					count > 0
-				}
-			}
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_equipment_shipments }
-		
-		icon = GFX_focus_generic_military_academy
-		x = -1
-		y = 1
-		relative_position_id = SPA_equipment_shipments
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 50
-			add_timed_idea = { idea = SPA_foreign_training_staff days = 730 }
-		}
-	}
-
-	focus = {
-		id = SPA_doctrinal_advancements
-		available = {
-			NOT = { has_global_flag = scw_over }
-			
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_equipment_shipments }
-		
-		icon = GFX_goal_generic_army_doctrines
-		x = 1
-		y = 1
-		relative_position_id = SPA_equipment_shipments
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = SPA_doctrinal_advancements
-				cost_reduction = 0.5
-				uses = 1
-				category = land_doctrine
-			}
-			add_doctrine_cost_reduction = {
-				name = SPA_doctrinal_advancements
-				cost_reduction = 0.5
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
 		id = SPA_the_national_and_popular_army_of_spain
 		available = {
 			has_global_flag = scw_over
@@ -531,7 +356,7 @@ focus_tree = {
 		prerequisite = { focus = SPA_fuse_the_parties }
 		
 		icon = GFX_goal_generic_army_doctrines
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = SPA_fuse_the_parties
 		cost = 5
@@ -540,10 +365,10 @@ focus_tree = {
 		complete_tooltip = {
 			every_state = {
 				limit	= {	has_state_flag = SPA_the_national_and_popular_army_of_spain_2mil }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -560,12 +385,18 @@ focus_tree = {
 					is_core_of = ROOT
 				}
 				set_state_flag = SPA_the_national_and_popular_army_of_spain_2mil
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 4
 					instant_build = yes
 				}
+			}
+			add_tech_bonus = {
+				name = SPA_an_armored_corps
+				bonus = 1.0
+				uses = 2
+				category = armor
 			}
 		}
 	}
@@ -743,32 +574,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPA_an_armored_corps
-		available = {
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_motorization }
-		
-		icon = GFX_goal_generic_army_tanks
-		x = 1
-		y = 1
-		relative_position_id = SPA_motorization
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_tech_bonus = {
-				name = SPA_an_armored_corps
-				bonus = 1.0
-				uses = 1
-				category = armor
-			}
-		}
-	}
-
-	focus = {
 		id = SPA_expand_the_war_industry
 		available = {
 			
@@ -844,7 +649,7 @@ focus_tree = {
 		prerequisite = { focus = SPA_fuse_the_parties }
 		
 		icon = GFX_goal_generic_consumer_goods
-		x = -6
+		x = -4
 		y = 1
 		relative_position_id = SPA_fuse_the_parties
 		cost = 10
@@ -1157,6 +962,8 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			activate_mission = SPA_carlist_uprising_mission
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 32141 }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 1287 }
 		}
 	}
 

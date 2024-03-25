@@ -1,5 +1,5 @@
 ﻿capital = 276
-
+add_ideas = volunteers_major_allies
 if = {
 	limit = {
 		NOT = {

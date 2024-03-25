@@ -1613,7 +1613,6 @@ characters={
 				}
 			}
 			available = {
-				has_completed_focus = SPA_the_condor_legion
 				custom_trigger_tooltip = {
 					tooltip = SPA_not_republican_spain_tt
 					NOT = { tag = SPD }

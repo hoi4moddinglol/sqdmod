@@ -14,6 +14,11 @@ on_actions = {
 						tag = FRA
 						tag = GER
 						tag = ITA
+						tag = CAN
+						tag = SAF
+						tag = HUN
+						tag = ROM
+						tag = BUL
 						}
 					}
 					set_rule = {
@@ -22,42 +27,4 @@ on_actions = {
 				}
 			}
 		}
-    on_startup = {
-		effect = {
-			every_country = {
-				limit = {
-					OR = {
-						TAG = GER
-						TAG = ITA
-				}
-			}
-					add_ideas = volunteers_major_axis
-		}
-	}
-}
-    on_startup = {
-		effect = {
-			every_country = {
-				limit = {
-					OR = {
-						TAG = ENG
-						TAG = FRA
-				}
-			}
-					add_ideas = volunteers_major_allies
-		}
-	}
-}
-    on_startup = {
-		effect = {
-			every_country = {
-				limit = {
-					OR = {
-						TAG = SOV
-				}
-			}
-					add_ideas = volunteers_sov_cap
-		}
-	}
-}
 }

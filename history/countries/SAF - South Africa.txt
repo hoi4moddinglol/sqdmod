@@ -1,5 +1,5 @@
 ﻿capital = 275
-
+add_ideas = volunteers_major_allies
 oob = "SAF_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
