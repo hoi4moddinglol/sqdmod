@@ -3724,7 +3724,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_war_with_france
-		cost = 10
+		cost = 1
 		ai_will_do = {
 			factor = 10
 		}
@@ -3749,8 +3749,95 @@ focus_tree = {
 			}
 		}
 	}
-
-	
+	focus = {
+		id = GER_north_african_corps
+		icon = GFX_focus_generic_africa_liberation
+		prerequisite = { focus = GER_reintegrate_luxemburg_and_alsace_lorraine }
+		mutually_exclusive = { focus = GER_fortress_europe }
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_reintegrate_luxemburg_and_alsace_lorraine
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_timed_idea = { idea = GER_afrika_bonus days = 365 }
+		}
+	}
+	focus = {
+		id = GER_fortress_europe
+		icon = GFX_focus_generic_fascist_troops
+		prerequisite = { focus = GER_reintegrate_luxemburg_and_alsace_lorraine }
+		mutually_exclusive = { focus = GER_north_african_corps }
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = GER_reintegrate_luxemburg_and_alsace_lorraine
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = GER_fortress_bonus
+			add_timed_idea = { idea = GER_no_afrika days = 365 }
+		}
+	}
+	focus = {
+		id = GER_tank_focus
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = GER_fortress_europe focus = GER_north_african_corps }
+		mutually_exclusive = { focus = GER_air_focus }
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_fortress_europe
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = GER_tank_bonus
+		}
+	}
+	focus = {
+		id = GER_air_focus
+		icon = GFX_focus_generic_tank_air_support
+		prerequisite = { focus = GER_fortress_europe focus = GER_north_african_corps }
+		mutually_exclusive = { focus = GER_tank_focus }
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_north_african_corps
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = GER_air_bonus
+		}
+	}
 	focus = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_generic_build_navy

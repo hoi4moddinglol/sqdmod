@@ -99,10 +99,10 @@ focus_tree = {
 		
 		
 		icon = GFX_goal_generic_demand_territory
-		x = 6
+		x = 0
 		y = 0
 		offset = {
-			x = -14
+			x = 0
 			y = 0
 			trigger = {
 				has_completed_focus = SPA_a_great_spain
