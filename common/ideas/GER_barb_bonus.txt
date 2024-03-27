@@ -187,6 +187,66 @@ ideas = {
 					conscription = 0.05
 				}
 			}
+			GER_europe_secured = {
+				picture = generic_manpower_bonus
+				allowed = {
+					original_tag = GER
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					max_dig_in_factor = 0.3
+					dig_in_speed_factor = 0.3
+				}
+			}
+			GER_safari = {
+				picture = generic_manpower_bonus
+				allowed = {
+					original_tag = GER
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					attrition = -0.2
+					supply_consumption_factor = -1
+				}
+			}
+			AXIS_med_dom = {
+				picture = generic_manpower_bonus
+				allowed = {
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					naval_invasion_capcity = 15
+					naval_invasion_prep_speed = 1.0
+				}
+				targeted_modifier = {
+					tag = ENG
+					attack_bonus_against = 0.15
+				}
+				targeted_modifier = {
+					tag = CAN
+					attack_bonus_against = 0.15
+				}
+				targeted_modifier = {
+					tag = SAF
+					attack_bonus_against = 0.15
+				}
+				targeted_modifier = {
+					tag = FRA
+					attack_bonus_against = 0.15
+				}
+			}
 			GER_endsieg_idea_2 = {
 				picture = generic_manpower_bonus
 				allowed = {
@@ -201,6 +261,54 @@ ideas = {
 					stability_weekly = -0.08
 					conscription = 0.10
 					industrial_capacity_factory = 0.50
+				}
+			}
+			GER_war_propaganda_idea = {
+				picture = generic_manpower_bonus
+				allowed = {
+					original_tag = GER
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					industrial_capacity_factory = 0.1
+					conscription = 0.03
+					mobilization_speed = 0.5
+				}
+			}
+			GER_totaler_krieg_idea = {
+				picture = generic_manpower_bonus
+				allowed = {
+					original_tag = GER
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					consumer_goods_factor = -0.2
+					army_core_attack_factor = 0.2
+					army_core_defence_factor = 0.2
+				}
+			}
+			GER_west_idea = {
+				picture = generic_manpower_bonus
+				allowed = {
+					original_tag = GER
+				}
+				allowed_civil_war = {
+					always = yes
+				}
+				removal_cost = -1
+				
+				modifier = {
+					ground_attack_factor = 0.05
+					air_agility_factor = 0.05
+					air_range_factor = 0.05
 				}
 			}
 		}	
