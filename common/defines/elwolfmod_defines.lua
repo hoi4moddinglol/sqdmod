@@ -7,6 +7,10 @@ NDefines.NNavy.SUPPLY_PRIORITY = 2								    	-- Default convoy priority for su
 NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 3								-- Default convoy priority for resources shipped internally
 NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 4								-- Default convoy priority for export trade
 NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 5                          -- Default convoy priority for export lend lease
+-- SPECIAL FORCES
+
+NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.1					-- Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier
+NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 266					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
 
 
 -- QOL
