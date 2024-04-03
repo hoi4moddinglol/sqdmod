@@ -3,7 +3,7 @@ state={
 	id=519
 	name="STATE_519"
 
-history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
+history={ 1936.1.1.13 = { owner = AST add_core_of = AST }
 		owner = AST
 		buildings = {
 			infrastructure = 1
