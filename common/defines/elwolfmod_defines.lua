@@ -33,8 +33,6 @@ NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "elwolfmod"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "elwolfmod"
 
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0                     -- Removed for game stability/reducing chance of desync
-NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 9999						    -- Unlimited special forces
-NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00                        -- Unlimited special forces
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.0			    -- Volunteer shit to prevent 2w spam
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.0				    -- Volunteer shit to prevent 2w spam
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1				    -- Volunteer shit to prevent 2w spam

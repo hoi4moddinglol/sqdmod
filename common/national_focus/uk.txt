@@ -3537,16 +3537,16 @@ focus_tree = {
 		}
 		available = {
 			any_country = {
-				original_tag = NZL
+				original_tag = BRA
 				is_in_faction_with = ROOT
 			}
 		}
 		bypass = {
 			OR = {
-				NZL = {
+				BRA = {
 					exists = no
 				}
-				NZL = {
+				BRA = {
 					custom_trigger_tooltip = {
 						tooltip = construction_effort_tt
 						all_owned_state = {
@@ -3579,7 +3579,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_country = {
 				limit = {
-					original_tag = NZL
+					original_tag = BRA
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = {
@@ -3619,17 +3619,13 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-				add_autonomy_ratio = {
-					value = -0.05
-					localization = uk_new_zealand_focus
-				}
 			}
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		completion_reward = {
-			NZL = {
+			BRA = {
 				add_opinion_modifier = {
 					target = ENG
 					modifier = aided_industry
@@ -3699,10 +3695,6 @@ focus_tree = {
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_new_zealand_focus_1dockyard
-				}
-				add_autonomy_ratio = {
-					value = -0.05
-					localization = uk_new_zealand_focus
 				}
 			}
 		}

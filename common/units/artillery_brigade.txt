@@ -28,8 +28,8 @@ sub_units = {
 			artillery_equipment = 18
 		}
 		
-		max_strength = 1
-		max_organisation = 4
+		max_strength = 10
+		max_organisation = 2
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
@@ -73,8 +73,8 @@ sub_units = {
 			motorized_equipment = 36
 		}
 		
-		max_strength = 0.6
-		max_organisation = 10
+		max_strength = 14
+		max_organisation = 2
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
@@ -109,9 +109,9 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 2
 		default_morale = 0.1
-		max_strength = 0.6
+		max_strength = 14
 		training_time = 120
 		weight = 0.5
 
@@ -147,9 +147,9 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 2
 		default_morale = 0.1
-		max_strength = 0.6
+		max_strength = 16
 		training_time = 120
 		weight = 0.5
 
@@ -187,9 +187,9 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 2
 		default_morale = 0.1
-		max_strength = 0.6
+		max_strength = 16
 		training_time = 120
 		weight = 0.5
 

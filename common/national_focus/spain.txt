@@ -941,6 +941,7 @@ focus_tree = {
 		available = {
 			has_global_flag = spanish_civil_war
 			hidden_trigger = { always = no }
+			is_ai = no
 		}
 		bypass = {
 			NOT = {
@@ -970,6 +971,7 @@ focus_tree = {
 	focus = {
 		id = SPA_save_the_alcazar
 		available = {
+			is_ai = no
 		}
 		bypass = {
 			OR = {
@@ -1249,6 +1251,7 @@ focus_tree = {
 	focus = {
 		id = SPA_a_methodical_approach
 		available = {
+			is_ai = no
 		}
 		bypass = {
 			has_global_flag = scw_over
