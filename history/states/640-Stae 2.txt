@@ -9,7 +9,7 @@ state={
 		tungsten = 120 
 	}
 history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
-		add_core_of = SWE
+		add_core_of = ZIM
 		owner = RAJ
 		buildings = {
 			infrastructure = 2
