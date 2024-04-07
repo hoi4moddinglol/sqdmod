@@ -18,7 +18,7 @@ state={
 			}
 			
 		}
-		add_core_of = ZIM
+		add_core_of = SWE
 
 	}
 

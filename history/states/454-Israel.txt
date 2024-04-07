@@ -28,7 +28,8 @@ state={
 		victory_points = {
 			1065 1 
 		}
-		add_core_of = ZIM
+		add_core_of = SWE
+		add_core_of = SWE
 	}
 
 	provinces={
