@@ -371,10 +371,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			48 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -961,8 +961,8 @@ focus_tree = {
 				ideology = neutrality
 				popularity = 0.05
 			}
-			add_political_power = 50
-			add_stability = -0.05
+			add_political_power = 150
+			add_stability = 0.15
 			add_ideas = BUL_tsar_boris_positive_01
 		}
 	}
@@ -1602,10 +1602,10 @@ focus_tree = {
 					}
 				}
 				set_state_flag = BUL_corporatism_flag
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1618,10 +1618,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}

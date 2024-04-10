@@ -83,6 +83,27 @@ ideas = {
 				global_building_slots_factor = 0.2
 			}
 		}
+		africa_bonus = {
+			removal_cost = -1
+			picture = generic_org_of_african_unity
+			name = "Africa Bonus"
+			modifier = {  
+				army_strength_factor = 1.0
+				supply_consumption_factor = -0.05
+				army_org_regain = 0.1
+				supply_node_range = 0.15
+			}
+			modifier = {
+				air_attack_factor =-0.3
+			
+			}
+			equipment_bonus = {
+				large_plane_airframe = {
+					instant = yes
+					air_defence = -0.3
+				}
+			}
+		}
 		YUG_air_payment = {
 			picture = generic_fighter_production_diverted
 			allowed = {

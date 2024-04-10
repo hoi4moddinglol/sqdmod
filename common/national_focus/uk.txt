@@ -4101,7 +4101,7 @@ focus_tree = {
 			focus = uk_canada_focus
 		}
 		prerequisite = {
-			focus = uk_new_zealand_focus
+			focus = uk_brazil_focus
 		}
 		prerequisite = {
 			focus = uk_south_africa_focus
@@ -4216,7 +4216,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 2
-		relative_position_id = uk_new_zealand_focus
+		relative_position_id = uk_brazil_focus
 		cost = 10
 		ai_will_do = {
 			factor = 1

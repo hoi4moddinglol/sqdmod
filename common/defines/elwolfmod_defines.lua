@@ -33,6 +33,9 @@ NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY = -2.5
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 NDefines.NSupply.SUPPLY_THRESHOLD_FOR_ARMY_ATTRITION = 0.20
 
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 50				--base is 24
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50				--base is 24
+
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP = "elwolfmod"
 NDefines_CareerProfile.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "elwolfmod"
 
