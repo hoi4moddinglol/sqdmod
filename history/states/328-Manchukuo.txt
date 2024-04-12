@@ -11,10 +11,10 @@ state={
 	}
 
 history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
-		owner = MAN
-		add_core_of = MAN
-		add_core_of = MAN
-		add_core_of = MAN
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
 			#industrial_complex = 1

@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
-		owner = MEX
+		owner = WST
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -15,7 +15,7 @@ history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
 				naval_base = 3
 			}
 		}
-		add_core_of = MEX
+		add_core_of = WST
 		victory_points = {
 			7921 10
 		}

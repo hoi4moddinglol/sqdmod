@@ -8,17 +8,17 @@ state={
 	
 	resources={
 		oil=8
-		#steel=4 sent to Mexico City
+		#steel=4 sent to WSTico City
 	}
 
 history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
-		owner = MEX
+		owner = WST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = MEX
+		add_core_of = WST
 		victory_points = {
 			12835 10
 		}

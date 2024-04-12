@@ -7,11 +7,11 @@ state={
 	}
 
 history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
-		owner = SIA
+		owner = JAP
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 5
+			arms_factory = 5
+			industrial_complex = 8
 			air_base = 3
 			7408 = {
 				naval_base = 3
@@ -24,7 +24,7 @@ history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
 		}
 		
 		
-		add_core_of = SIA
+		add_core_of = JAP
 
 	}
 
@@ -33,6 +33,6 @@ history={ 1936.1.1.13 = { owner = WST add_core_of = WST }
 	}
 	manpower=8422400
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=megalopolis
 	local_supplies=0.000
 }
