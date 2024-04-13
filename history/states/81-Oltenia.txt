@@ -1,7 +1,7 @@
 state={
 	id=81
 	name="STATE_81"
-	manpower=1519300
+	manpower=2319300
 	
 	resources={
 		rubber=26
@@ -17,7 +17,6 @@ state={
 		owner = ROM
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 4
 		}
 		add_core_of = ROM
 	}

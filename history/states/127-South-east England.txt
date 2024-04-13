@@ -4,7 +4,9 @@ state={
 	name="STATE_127" # Sussex
 	manpower = 3193383
 	state_category = megalopolis
-
+	resources = {
+		aluminium = 156
+	}
 	history={
 		owner = ENG
 		victory_points = { 3501 20 }

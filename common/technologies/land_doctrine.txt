@@ -15,9 +15,7 @@ technologies = {
 		}
 		
 		category_all_armor = {
-			breakthrough = 0.15
-			soft_attack = 0.1
-			hard_attack = 0.1
+			breakthrough = 0.1
 		}
 		
 		planning_speed = 0.5
@@ -381,8 +379,17 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_tanks = {
-			max_organisation = 3
-			breakthrough = 0.08
+			max_organisation = 4
+			max_Strength = 4
+		}
+		motorized = {
+			max_organisation = 4
+			max_strength = 1
+			
+		}
+		mechanized = {
+			max_organisation = 4
+			max_strength = 1
 		}
 		
 		enable_tactic = tactic_blitz
@@ -446,7 +453,6 @@ technologies = {
 		}
 
 		category_all_armor = {
-			default_morale = 0.1
 			hard_attack = 0.1
 		}
 		
@@ -504,8 +510,6 @@ technologies = {
 
 		category_all_armor = {
 			default_morale = 0.1
-			maximum_speed = 0.05
-			hard_attack = 0.05
 		}
 		armored_car = {
 			default_morale = 0.1
@@ -738,9 +742,7 @@ technologies = {
 		xp_unlock_cost = 100
 		category_tanks = {
 			max_organisation = 3
-			breakthrough = 0.08
-			hard_attack = 0.10
-			soft_attack = 0.15
+			breakthrough = 0.20
 		}
 
 		category_all_armor = {

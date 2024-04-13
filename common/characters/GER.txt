@@ -359,7 +359,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard infantry_officer }
+			traits={ old_guard infantry_officer skilled_staffer_sov_ger }
 			skill=3
 			attack_skill=4
 			defense_skill=3
