@@ -3,6 +3,8 @@
 #### NO STEP BACK
 ####
 add_ideas = volunteers_sov_cap
+add_ideas = SOV_debuff_1
+add_ideas = SOV_shit_army
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {
