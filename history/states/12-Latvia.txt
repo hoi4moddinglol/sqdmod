@@ -10,7 +10,7 @@ state={
 	state_category = megalopolis
 	
 	history={
-		owner = LAT
+		owner = WST
 		victory_points = {
 			10493 1 #Valmiera
 		}
