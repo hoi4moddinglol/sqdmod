@@ -1,4 +1,4 @@
-
+NDefines.NGame.GAME_SPEED_SECONDS = { 600.0, 0.6, 0.22, 0.35, 0.0 
 --Convoy Prio
 
 NDefines.NNavy.NAVAL_INVASION_PRIORITY = 1								-- Default convoy priority for naval invasions
@@ -32,6 +32,7 @@ NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = 0 -- was -0.05
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY = -2.5
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 NDefines.NSupply.SUPPLY_THRESHOLD_FOR_ARMY_ATTRITION = 0.20
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 50 -- was 30, changed for macro speed purposes
 
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 50				--base is 24
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50				--base is 24

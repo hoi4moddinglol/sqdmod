@@ -175,6 +175,133 @@ ideas = {
 				reassignment_duration_factor = 0.25
 			}
 		}
+		SOV_debuff_1 = {
+			removal_cost = -1
+
+			picture = SOV_second_five_year_plan
+
+			allowed = {
+				always = no 
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_arms_factory_factor = -0.2
+				industrial_capacity_factory	 = -0.1
+			}
+		}
+		SOV_debuff_2 = {
+			removal_cost = -1
+
+			picture = SOV_second_five_year_plan
+
+			allowed = {
+				always = no # Added via purges
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory	 = -0.05
+			}
+		}
+		SOV_shit_army = {
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no # Added via purges
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				max_dig_in_factor = -0.3
+				army_org_factor = -0.1
+				army_attack_factor = -0.1
+			}
+		}
+		SOV_shit_army_2 = {
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no # Added via purges
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				max_dig_in_factor = -0.1
+				army_attack_factor = -0.05
+			}
+		}
+		SOV_winter_offensive_yes = {
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no # Added via purges
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				army_attack_factor = 0.25
+			}
+		} 
+		SOV_we_are_basically_dead = {
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			allowed = {
+				always = no # Added via purges
+			}
+
+			allowed_civil_war = {
+				has_country_leader = {
+					character = SOV_iosif_stalin
+					ruling_only = yes
+				}
+			}
+
+			modifier = {
+				army_core_attack_factor = 0.4
+				army_core_defence_factor = 0.4
+			}
+		} 
 
 		SOV_training_activities_curtailed = {
 			removal_cost = -1
@@ -9738,7 +9865,7 @@ ideas = {
 			production_speed_arms_factory_factor = 0.05
 			production_speed_dockyard_factor = 0.05
 			license_purchase_cost = -0.25
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -9767,7 +9894,7 @@ ideas = {
 			production_speed_arms_factory_factor = 0.12
 			production_speed_dockyard_factor = 0.05
 			license_purchase_cost = -0.25
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 			consumer_goods_factor = -0.15
 		}
 	}
@@ -9797,7 +9924,7 @@ ideas = {
 			production_speed_arms_factory_factor = 0.17
 			production_speed_dockyard_factor = 0.05
 			license_purchase_cost = -0.25
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 			industrial_capacity_factory = 0.05
 		}
 	}
@@ -9827,7 +9954,7 @@ ideas = {
 			production_speed_arms_factory_factor = 0.12
 			production_speed_dockyard_factor = 0.1
 			license_purchase_cost = -0.25
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 			industrial_capacity_dockyard = 0.05
 		}
 	}
@@ -9859,7 +9986,7 @@ ideas = {
 			license_purchase_cost = -0.25
 			line_change_production_efficiency_factor = 0.1
 			production_lack_of_resource_penalty_factor = -0.1
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -9891,7 +10018,7 @@ ideas = {
 			line_change_production_efficiency_factor = 0.1
 			production_lack_of_resource_penalty_factor = -0.1
 			consumer_goods_factor = -0.15
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -9923,7 +10050,7 @@ ideas = {
 			line_change_production_efficiency_factor = 0.1
 			production_lack_of_resource_penalty_factor = -0.1
 			industrial_capacity_factory = 0.05
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -9955,7 +10082,7 @@ ideas = {
 			line_change_production_efficiency_factor = 0.1
 			production_lack_of_resource_penalty_factor = -0.1
 			industrial_capacity_dockyard = 0.05
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -9985,7 +10112,7 @@ ideas = {
 			production_speed_dockyard_factor = 0.05
 			license_purchase_cost = -0.25
 			production_factory_efficiency_gain_factor = 0.25
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -10016,7 +10143,7 @@ ideas = {
 			license_purchase_cost = -0.25
 			production_factory_efficiency_gain_factor = 0.25
 			consumer_goods_factor = -0.15
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -10047,7 +10174,7 @@ ideas = {
 			license_purchase_cost = -0.25
 			production_factory_efficiency_gain_factor = 0.25
 			industrial_capacity_factory = 0.05
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
@@ -10078,7 +10205,7 @@ ideas = {
 			license_purchase_cost = -0.25
 			production_factory_efficiency_gain_factor = 0.05
 			industrial_capacity_dockyard = 0.05
-			production_factory_max_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.03
 		}
 	}
 
