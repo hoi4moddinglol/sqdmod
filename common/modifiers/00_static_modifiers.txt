@@ -664,7 +664,7 @@ SOV_face_western_fascism_static = {
 			has_war_with = ROOT
 		}
 	}
-
+       compliance_growth_on_our_occupied_states = 1
 	attack_bonus_against = 0.1
 	defense_bonus_against = 0.1
 }
