@@ -6580,7 +6580,11 @@ focus_tree = {
 					transfer_state = 814
 					transfer_state = 815
                                        add_political_power = -150
-
+					add_equipment_to_stockpile = {
+    					type = infantry_equipment
+    					amount = 108000
+   					producer = SOV
+					}
 				}
 			}
 
