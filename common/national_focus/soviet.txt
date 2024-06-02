@@ -5183,12 +5183,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
 
 		completion_reward = {
-			add_to_variable = { SOV_the_politburo_good_consumer_goods_factor = -0.02 }
-			add_to_variable = { SOV_the_politburo_production_speed_buildings_factor = 0.05 } 
-			add_to_variable = { SOV_the_politburo_global_building_slots_factor = 0.1 } 
+			add_to_variable = { SOV_the_politburo_good_consumer_goods_factor = -0.05 }
+			add_to_variable = { SOV_the_politburo_production_speed_buildings_factor = 0.10 } 
+			add_to_variable = { SOV_the_politburo_global_building_slots_factor = 0.15 } 
 			custom_effect_tooltip = SOV_the_collectivization_process_ns_tt
 
-			add_stability = -0.05
+			add_stability = -0.10
 			add_war_support = -0.05
 
 			if = { #Target a rural state with no civs
