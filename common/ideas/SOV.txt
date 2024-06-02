@@ -11,6 +11,9 @@ ideas = {
 
 	country= {
 
+
+		
+
 		SOV_second_five_year_plan_fake_1936_ns = { #Only used for 1936 bookmark (dynamic modifiers don't show up there)
 			name = SOV_second_five_year_plan_dynamic_modifier
 
@@ -49,6 +52,7 @@ ideas = {
 				industrial_concern_cost_factor = -0.15 #-0.15
 			}
 		}
+
 
 		trotskyite_plot_nsb = {
 			name = trotskyite_plot
@@ -9695,6 +9699,8 @@ ideas = {
 			visible = {
 				NOT = { has_completed_focus = SOV_national_specialists }
 			}
+
+
 
 			research_bonus = {
 				electronics = 0.1
