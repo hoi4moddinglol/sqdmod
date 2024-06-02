@@ -342,6 +342,9 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+
+
+
 			# Moscow - Rostov on Don
 			build_railway = {
 				path = { 9330 3356 6279 6230 6398 6341 413 3527 11475 11412 6591 3540 3519 11459 11450 11434 9417 }
@@ -384,6 +387,7 @@ focus_tree = {
 
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = SOV_soviet_railways
+			
 		}
 	}
 

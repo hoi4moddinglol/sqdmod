@@ -1,0 +1,33 @@
+ideas = {	
+	country = {
+		SOV_Infrastructure_Failures = {
+			picture = spirit.jpg
+			
+			allowed = {
+				tag = SOV
+				#restricts to country tag Afghanistan#
+			}
+			
+			available = {
+				tag = SOV
+			}
+			
+			cancel = {}
+
+			allowed_civil_war = {
+				always = yes
+			}
+            
+			
+			
+			removal_cost = -1
+			
+			modifier = {
+                 production_speed_infrastructure_factor =  -0.15
+			
+			}
+		}
+	}
+}
+
+
