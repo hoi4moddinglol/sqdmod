@@ -13,6 +13,10 @@
 #	}
 # 
 
+
+
+
+
 SOV_propaganda_poster_slot_available = {
 	custom_trigger_tooltip = {
 		tooltip = SOV_propaganda_poster_slot_available_tt

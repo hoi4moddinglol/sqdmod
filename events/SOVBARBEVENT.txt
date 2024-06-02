@@ -1,0 +1,50 @@
+# namespace = Till_The_Very_End
+
+#country_event = {
+#	id = Till_The_Very_End.barbarossagocrazy.1
+#	title = fight_till_the_last_man.100.t
+#	desc = fight_till_the_last_man.100.d
+#	picture = GFX_report_event_japanese_transport_soldiers
+#
+#	trigger = {
+#		tag = SOV
+#		is_ai = no
+#		casualties_inflicted_by = {
+#			opponents = {
+#				GER = yes
+#				ITA = yes
+#				HUN = yes
+#			    ROM = yes
+#				BUL = yes
+#		}
+#			thousands = 5000
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#
+#	option = { # Last Man Battles
+#		name = Use_The_Entire_Industry_For_War!.a
+#		add_political_power = -120
+#		stability = -0.35
+#		war_support = 0.45
+#		modifier = {
+#			production_speed_arms_factory = 0.25
+#			production_factory_efficiency_gain = 0.05
+#			industrial_capacity_factory = 0.10
+#		}
+#	}
+#
+#	option = {
+#		name = Partially_Use_Industry_For_War.a
+#		stability = 0.25
+#		add_political_power = 100
+#		war_support = -0.10
+#		modifier = {
+#			industrial_capacity_factory = 0.05
+#			production_factory_efficiency_gain = 0.03
+#			production_speed_arms_factory = 0.10
+#		}
+#	}
+#}
+###

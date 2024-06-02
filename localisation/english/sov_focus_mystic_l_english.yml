@@ -12,5 +12,9 @@
  SOV_winter_offensive_yes:0 "Winter Offensive of 1942"
  SOV_Infrastructure_Failures:0 "Infrastructure Problems"
  SOV_Infrastructure_Failures_desc:0 "The Collectivisation Process has Severly Slowed down Infrastructure Developments"
-
- 
+# EVENTS BARBAROSSA
+#SOV_Till_The_Very_End_barbarossagocrazy.1.t:0 "Fight Till the Last Man"
+#SOV_Till_The_Very_End_barbarossagocrazy.1.d:0 "The situation is dire. We must decide how to use our industry to support the war effort."
+#SOV_Use_The_Entire_Industry_For_War!.a:0 "Use the Entire Industry for War!"
+#SOV_Partially_Use_Industry_For_War.a:0 "Partially Use Industry for War"
+#
