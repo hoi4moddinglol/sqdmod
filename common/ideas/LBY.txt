@@ -11,11 +11,16 @@ ideas = {
 
 			removal_cost = -1
 			
+
+
 			modifier = {
 				surrender_limit = 0.20
 				war_support_weekly = 0.9
 				stability_weekly = 0.9
 				recruitable_population = 100
+				research_bonus = {
+					armor_tech = -9999999
+				}
             }
         }
 	}
